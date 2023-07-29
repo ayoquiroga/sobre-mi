@@ -1,0 +1,16 @@
+/*Probando colores en el body*/
+body {
+    background-color: rgb(241, 243, 237);
+}
+/*Probando colores en el elemento ul*/
+ul{
+    background-color: rgb(247, 247, 247);
+}
+/*Probando colores en el elemento h1*/
+h1{
+    color: rgb(10, 10, 10);
+}
+/*Probando colores en el elemento h2*/
+h2{
+    color: rgb(4, 36, 133);
+}
