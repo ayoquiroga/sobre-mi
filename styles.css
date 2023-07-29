@@ -1,0 +1,16 @@
+/*Probando colores en el body*/
+body {
+    background-color: yellowgreen;
+}
+/*Probando colores en el elemento ul*/
+ul{
+    background-color: yellow;
+}
+/*Probando colores en el elemento h1*/
+h1{
+    color: whitesmoke;
+}
+/*Probando colores en el elemento h2*/
+h2{
+    color: green;
+}
