@@ -1,5 +1,6 @@
 /*Probando colores en el body*/
 body {
+<<<<<<< HEAD
     background-color: rgb(241, 243, 237);
 }
 /*Probando colores en el elemento ul*/
@@ -13,4 +14,19 @@ h1{
 /*Probando colores en el elemento h2*/
 h2{
     color: rgb(4, 36, 133);
+=======
+    background-color: yellowgreen;
+}
+/*Probando colores en el elemento ul*/
+ul{
+    background-color: yellow;
+}
+/*Probando colores en el elemento h1*/
+h1{
+    color: whitesmoke;
+}
+/*Probando colores en el elemento h2*/
+h2{
+    color: green;
+>>>>>>> 1c87c4d3cc8fca5ec98784a2f3995589842456e1
 }
