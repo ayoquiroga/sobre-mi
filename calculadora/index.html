@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="calculadora">
+        <input id="operando1" class="operando1" type="text" placeholder="Ingrese el primer número">
+        <select id="selector" class="selector" title="selector" >
+            <option value="#" disabled selected>Seleccione</option>  
+            <option value="suma">Sumar</option>                   
+            <option value="resta">Restar</option>
+            <option value="multiplicacion">Multiplicar</option>
+            <option value="division">Dividir</option>
+        </select>
+        <input id="operando2" class="operando2" type="text" placeholder="Ingrese el segundo número">
+        <button class="calcular" type="submit" onclick="main()">Calcular</button>
+        <p id="resultado" class="resultado" type="button" >Resultado</p>
+        <button class="borrar" type="submit" onclick="borrar()">Borrar</button>
+    </main>
+        <!-- javascript -->    
+    <script src="app.js"></script>
+</body>
+</html>
